@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="sources\Tetromino">
+      <UniqueIdentifier>{b525cc10-baa9-470d-bab6-32c70917e8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Map">
+      <UniqueIdentifier>{bff688ea-9dd0-434e-9ce2-0056ce91f6cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Aplication">
+      <UniqueIdentifier>{a0f72b9a-e5df-417e-8e91-7c36c23b9a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\MessageDispleyers">
+      <UniqueIdentifier>{2902203f-d96b-4ff6-bf6f-12c8d6c1fd77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Detecters">
+      <UniqueIdentifier>{935af0df-6eb9-4059-a857-0422ed7a3207}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetromino.cpp">
+      <Filter>sources\Tetromino</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>sources\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGenerator.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrominoPreview.cpp">
+      <Filter>sources\Tetromino</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseApp.cpp">
+      <Filter>sources\Aplication</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisGameApp.cpp">
+      <Filter>sources\Aplication</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>sources\MessageDispleyers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverMessage.cpp">
+      <Filter>sources\MessageDispleyers</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrominoDrawer.cpp">
+      <Filter>sources\Tetromino</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection.cpp">
+      <Filter>sources\Detecters</Filter>
+    </ClCompile>
+    <ClCompile Include="LinesDetection.cpp">
+      <Filter>sources\Detecters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PerformanceCounter.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetromino.h">
+      <Filter>sources\Tetromino</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>sources\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGenerator.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrominoPreview.h">
+      <Filter>sources\Tetromino</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseApp.h">
+      <Filter>sources\Aplication</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisGameApp.h">
+      <Filter>sources\Aplication</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>sources\MessageDispleyers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverMessage.h">
+      <Filter>sources\MessageDispleyers</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrominoDrawer.h">
+      <Filter>sources\Tetromino</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>sources\Detecters</Filter>
+    </ClInclude>
+    <ClInclude Include="LinesDetection.h">
+      <Filter>sources\Detecters</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

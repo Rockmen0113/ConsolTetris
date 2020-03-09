@@ -1,0 +1,27 @@
+﻿cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  TetrominoPreview.cpp
+  TetrominoDrawer.cpp
+  Tetromino.cpp
+  TetrisGameApp.cpp
+c:\projects\tetris\src_sample backup 20 46 09.03.2020\tetris\tetrisgameapp.cpp(25): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(452): note:  см. объявление "getch"
+  Score.cpp
+  RandomGenerator.cpp
+  Position.cpp
+  main.cpp
+  LinesDetection.cpp
+  GameOverMessage.cpp
+  GameMap.cpp
+  CollisionDetection.cpp
+  BaseApp.cpp
+c:\projects\tetris\src_sample backup 20 46 09.03.2020\tetris\performancecounter.h(35): warning C4244: return: преобразование "LONGLONG" в "int", возможна потеря данных
+c:\projects\tetris\src_sample backup 20 46 09.03.2020\tetris\performancecounter.h(42): warning C4244: return: преобразование "LONGLONG" в "int", возможна потеря данных
+c:\projects\tetris\src_sample backup 20 46 09.03.2020\tetris\baseapp.cpp(16): warning C4838: преобразование из "const int" в "SHORT" требует сужающего преобразования
+c:\projects\tetris\src_sample backup 20 46 09.03.2020\tetris\baseapp.cpp(17): warning C4838: преобразование из "int" в "SHORT" требует сужающего преобразования
+c:\projects\tetris\src_sample backup 20 46 09.03.2020\tetris\baseapp.cpp(96): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(458): note:  см. объявление "kbhit"
+c:\projects\tetris\src_sample backup 20 46 09.03.2020\tetris\baseapp.cpp(98): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(452): note:  см. объявление "getch"
+  Создание кода...
+BaseApp.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+  Tetris.vcxproj -> C:\Projects\Tetris\src_sample BackUp 20 46 09.03.2020\Debug\Tetris.exe
